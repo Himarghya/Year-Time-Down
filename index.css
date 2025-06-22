@@ -1,0 +1,58 @@
+body{
+    height: 100%;
+    width:100%;
+    background-image:linear-gradient(to right, #4D52B4, #4E9CE8,#70D6C5, #CAE5BC, #E1EDD4);
+}
+.Display{
+    height:600px;
+    width:800px;
+    background-image: linear-gradient(to left, #3d2a5d, #572866, #8f529b, #ac91c0);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px black;
+    opacity: 0.8;
+}
+.displayNewYear{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    color: aliceblue;
+    filter: drop-shadow(4px 2px 1px black);
+}
+.time{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    color: aliceblue;
+    margin-left: 0px;
+}
+.days{
+    flex-basis: 300px;
+    align-self: flex-start;
+}
+.hours{
+    flex-basis: 300px;
+}
+.min{
+    flex-basis: 00px;
+}
+#DayTimer, #HourTimer, #MinTimer{
+    margin-top: 100px;
+    font-size: 3rem;
+}
+.spanDay{
+    margin-left: 30px;
+    color: #f5e4c4;
+}
+.spanHour{
+    margin-left:30px;
+    color: #f5e4c4;
+}
+.spanMinute{
+    margin-left: 15px;
+    color: #f5e4c4;
+}
